@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    padding-top: 56px;
+    padding-bottom: 86px;
+    display: flex;
+}
+.container{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+}
+.header__link{
+    color: #1f1534;
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-decoration: none;
+    opacity: 0.5;
+}
+.header__link:hover{
+    color: #1f1534;
+    font-weight: 700;
+    opacity: 1;
+    transition: 0.4s ease-in-out;
+}
+.header__link:active{
+    color: red;
+}
+.hero{
+    padding-bottom: 96px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__textbox{
+    width: 440px;
+}
+.hero__title{
+    color: #000000;
+    font-family: "Mulish";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.hero__text{
+    color: #7d7987;
+    font-family: "Mulish";
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.hero__btn{
+    width: 197px;
+    border-radius: 55px;
+    background-color: #458ff6;
+    padding: 17px 0;
+    border: none;
+    color: #ffffff;
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+.hero__btn:hover{
+    background-color: #000000;
+    transition: 0.4s ease-in-out;
+}
+.hero__btn:active{
+    background-color: red;
+}
+.services{
+    padding-bottom: 106px;
+}
+.services__textbox{
+    width: 952px;
+    margin: 0 auto;
+    text-align: center;
+}
+.services__title{
+    color: #000000;
+    font-family: "Mulish";
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 61px;
+}
+.services__text{
+    color: #7d7987;
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.services__list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+.services__item{
+    width: 380px;
+    border-radius: 20px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+    background-color: #ffffff;
+    padding: 68px 58px 47px 41px;
+    margin-bottom: 40px;
+}
+.services__heading{
+    color: rgb(0, 0, 0);
+    font-family: "Mulish";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-top: 20px;
+}
+.services__desc{
+    color: #7d7987;
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.services__btn{
+    display: block;
+    border-radius: 50px;
+    width: 200px;
+    padding: 17px 0;
+    border: 1px solid #458ff6;
+    color: #458ff6;
+    background-color: transparent;
+    margin: 0 auto;
+    font-family: "Mulish";
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+}
+.services__btn:hover{
+    background-color: black;
+    transition: 0.4s ease-in-out;
+}
+.services__btn:active{
+    background-color: rgb(209, 15, 15);
+    transition: 0.4s ease-in-out;
+}
+.razmer{
+    width: 300px;
+    height: 300px;
+}
+.check__wrapper{
+    display: flex;
+    border-radius: 20px;
+}
+.check__title{
+    justify-content: center;
+   display: flex;
+   padding-bottom: 20px;
+   font-family: "Mulish";
+   font-size: 40px;
+}
+
+.check__wrapper{
+    display: flex;
+    justify-content: center;
+   gap: 10px;
+
+}
+
+.check{
+   
+box-shadow: #ffffff;
+}
+.wrapper1{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(78, 78, 233);
+    padding: 35px 20px;
+}
+.text{
+   color: white; 
+   color: rgb(255, 255, 255);
+   font-family: Mulish;
+   font-size: 20px;
+   font-weight: 700;
+   line-height: 25px;
+   letter-spacing: 0%;
+   text-align: left;
+text-align: start;
+width: 97px;
+height: 25px;
+left: 769.07%;
+right: -769.07%;
+top: 2861.39%;
+bottom: -2786.14%;
+
+}
+.icons2{
+    display: flex;
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+}
+.legs{
+    padding: 40px 0px;
+}
+.check__heading{
+    color: rgb(0, 0, 0);
+    font-family: Mulish;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: left;
+text-align: start;
+width: 265px;
+height: 64px;
+left: 11.28%;
+right: -10.9%;
+top: 132.35%;
+bottom: -63.73%;
+margin-left: 21px;
+margin-right: 32px;
+}
+.check__text{
+    color: #7d7987;
+    font-family: "Mulish";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: start;
+    padding: 0px 10px;
+    flex-wrap: wrap;
+    margin-left: 16px;
+    margin-right: 28px;
+}
+.check__links{
+    color: rgb(64, 137, 237);
+font-family: Mulish;
+font-size: 17px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: left;
+text-align: start;
+width: 87px;
+height: 28px;
+left: 11.28%;
+right: 56.02%;
+top: 218.63%;
+bottom: -132.35%;
+margin-left: 17px;
+margin-right: 28px;
+}
+.check__box{
+    border-radius: 30px;
+    width: 380px;
+    height: 504px;
+box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.4);
+background: rgb(255, 255, 255);
+margin-left: 10px;
+
+}
+.container{
+    max-width: 1220px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: #ffffff;
+    padding: 0 20px;
+}
+.text2{
+   /* Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online */
+position: static;
+width: 386px;
+height: 56px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 31px 0px;
+    color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 300;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+}
+.toj{
+    /* About */
+position: static;
+width: 51px;
+height: 23px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding-top: 13px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 10px 0px;
+color: rgb(255, 255, 255);
+font-family: Mulish;
+font-size: 18px;
+font-weight: 300;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+}
+.krch{
+    font-size: 30px ;
+    
+}
+.icons2{
+    gap: 15px;
+}
